@@ -1,0 +1,99 @@
+
+.total {
+  background-color: #F5F5F5;
+  text-align: left;
+}
+
+.title {
+font-size: 35px;
+margin: 10;
+font:bold;
+text-align: left;
+}
+
+.position {
+  text-align: center;
+  padding-top:10;
+}
+
+.lead {
+font-size: 25px;
+font: normal;
+margin: 0;
+text-align: left;
+text-decoration: none;
+color: #000000; 
+}
+
+.sublead {
+font-size: 20px;
+font: normal;
+margin: 0;
+list-style-type:none;
+list-style: none;
+padding: 0;
+color: #000000; 
+text-decoration: none;
+text-align: center;
+
+}
+.sublead :hover {
+  transform: translateY(1px);
+}
+
+
+.head2 {
+font-size: 25px;
+font: normal;
+margin: 0;
+color: darkslategrey;
+list-style-type:none;
+list-style: none;
+padding: 0;
+text-decoration: none;
+}
+.head2 li {
+  color: #888; /* 灰色字体 */
+  margin-bottom: 10px;
+}
+
+.head2 li a {
+  color: inherit; /* 继承父元素颜色（灰色） */
+  text-decoration: none; /* 不显示下划线 */
+  cursor: pointer; /* 鼠标悬停时变为手型光标 */
+}
+
+.head2 :hover {
+  transform: translateY(2px);
+}
+
+.Button{
+  display: inline-block;
+  background-color: #16082f;
+  color: #fff;
+  padding: 10px 300px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.buttontext{
+font-size: 20px;
+font: normal;
+margin: 0;
+color: #FFFFFF;
+list-style-type:none;
+list-style: none;
+padding: 0;
+text-decoration: none;
+}
+.Button:hover {
+  transform: translateY(3px); /* 下沉效果，可以根据需求调整下沉的距离 */
+}
+
+.icon{
+text-align: right;
+font-size: 20px;
+color:#808080;
+}

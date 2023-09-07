@@ -1,0 +1,129 @@
+/* styles.css  */
+.title {
+font-size: 45px;
+margin: 10;
+text-align: center;
+font:bold;
+}
+
+.section {
+font:bold;
+text-align: center;
+}
+
+.content {
+  color: #808080;
+  text-align: left;
+  font-size: 20px;
+}
+
+.lead {
+font-size: 25px;
+margin-bottom: 30px;
+text-align: center;
+font:normal;
+}
+
+.head2 {
+font-size: 25px;
+margin: 5;
+text-align: left;
+font:bold;
+}
+
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Gap between rows */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Gap between icon sections */
+  width: 100%;
+}
+
+.icon-wrapper {
+  flex-basis: calc(50% - 10px); /* Two icons in each row with a gap */
+
+}
+.icon-row-content {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    margin-right: 30px; 
+}
+
+
+
+.content-container {
+  text-align: center;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.size40 {
+  width: 40px;
+  height: 40px;
+  list-style-type:none;
+list-style: none;
+margin-right: 20px; 
+}
+
+.primary600 {
+  fill: #ffcc00; /* 将SVG图标颜色改为黄色 */
+  color:#ffcc00;
+}
+
+
+
+.Button1{
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 15px 250px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  border:none;
+  font-size: 18px;
+}
+
+.buttontext{
+font-size: 20px;
+font: normal;
+margin: 0;
+color: #000000;
+list-style-type:none;
+list-style: none;
+padding: 0;
+text-decoration: none;
+}
+
+.Button1:hover {
+  transform: translateY(3px); /* 下沉效果，可以根据需求调整下沉的距离 */
+}

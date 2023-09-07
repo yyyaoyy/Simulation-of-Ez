@@ -1,0 +1,96 @@
+.Section {
+  background-color: #f0f0f0;
+text-align: center;
+}
+
+.Container{
+  text-align: center;
+}
+
+.Image{
+
+  text-align: center;
+}
+
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+.Heading{
+  font-size: 40px;
+  margin-top: 60px;
+  text-align: center;
+  font: bold;
+}
+
+.Row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.Item{
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.Button{
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 15px 250px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  border:none;
+}
+.icon {
+text-align: center;
+font-size: 28px;
+color: #808080;
+}
+
+.Button1{
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 15px 250px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  border:none;
+  font-size: 18px;
+}
+
+.buttontext{
+font-size: 20px;
+font: normal;
+margin: 0;
+color: #000000;
+list-style-type:none;
+list-style: none;
+padding: 0;
+text-decoration: none;
+}
+
+.Button1:hover {
+  transform: translateY(3px); /* 下沉效果，可以根据需求调整下沉的距离 */
+}

@@ -1,0 +1,81 @@
+/* components/GuaranteeSection.module.css */
+
+.guaranteeSection {
+  background-color: #0B243B; /* background */
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Optional: Limit the maximum width of the section */
+  margin: 0 auto; /* Optional: Center the section horizontally */
+}
+
+.smallMarginTop5 {
+  margin-top: 5px;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
+  text-align: center;
+}
+
+.mediaLeft {
+  margin-right: 20px;
+  flex: 0 0 auto; /* Prevent the icon from growing to take up extra space */
+}
+
+.size70 {
+  width: 70px;
+  height: 70px;
+}
+
+.white {
+  fill: #ffffff; /* White icon color */
+}
+
+.mediumMarginRight20 {
+  margin-right: 20px;
+}
+
+.mediaBody {
+  flex: 1;
+  text-align: left;
+   /* Optional: Limit the maximum width of the text */
+}
+
+
+
+.text {
+  color: #ffffff; /* White font color */
+  margin-top: 10px;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+
+.textSecondary {
+  color: #ffffff; /* Secondary text color */
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Arial", sans-serif; 
+}
+
+
+
+
+/* Keep text in a single line 
+@media screen and (max-width: 768px) {
+  .mediaBody {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+*/

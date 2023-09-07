@@ -1,0 +1,24 @@
+/* ButtonSwitcher.module.css */
+
+.button-container {
+  display: flex;
+}
+
+.buttonm {
+  background-color: #e2e1e1;
+  color: #c1c0bf;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+.icon{
+text-align: right;
+font-size: 15px;
+color:#008000;
+}

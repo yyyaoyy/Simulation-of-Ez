@@ -1,0 +1,76 @@
+/* styles.css (or add to your component styles) */
+.content {
+  color: #808080;
+  text-align: center;
+  font-size: 30px;
+}
+.Section {
+  background-color: #FFFFFF;
+text-align: center;
+}
+.title {
+font-size: 45px;
+margin: 10;
+font:bold;
+text-align: center;
+}
+
+.lead {
+font-size: 38px;
+margin-bottom: 30px;
+text-align: center;
+font:normal;
+}
+
+.head2 {
+font-size: 35px;
+margin: 5;
+text-align: center;
+}
+
+.icon {
+size:60; 
+primary:600;
+text-align: center;
+color: #ffcc00;
+stroke: #ffcc00;
+}
+
+
+.twoColumn {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+
+
+.Button1{
+  display: inline-block;
+  background-color: #ffcc00;
+  color: #000000;
+  padding: 15px 250px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  border:none;
+  font-size: 18px;
+}
+
+.buttontext{
+font-size: 20px;
+font: normal;
+margin: 0;
+color: #000000;
+list-style-type:none;
+list-style: none;
+padding: 0;
+text-decoration: none;
+}
+
+.Button1:hover {
+  transform: translateY(3px); /* 下沉效果，可以根据需求调整下沉的距离 */
+}

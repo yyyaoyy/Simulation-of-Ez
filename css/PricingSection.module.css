@@ -1,0 +1,229 @@
+/* components/PricingSection.module.css */
+
+/* Section Styles */
+
+.body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.PricingSection {
+  background-color: #F8C41F;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.subcon {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+  }
+
+
+.Fontsize {
+  font-size: 30px;
+}
+
+.Fontsize1 {
+  font-size: 23px;
+}
+
+
+/* Button Styles */
+
+.buttonContainer {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  
+}
+
+
+
+.buttonm {
+  background-color: #e2e1e1;
+  color: #c1c0bf;
+  border: none;
+  padding: 10px 30px;
+  width: 150px; /* fix width */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+
+
+.button{
+position: absolute;
+background-color: #000000;
+color: #FFFFFF;
+width: 100px;
+height: 35px;
+border-radius: 5px 5px 5px 5px;
+margin-left: 200px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+
+}
+
+
+
+.small{
+  border: 1px solid #e2e1e1;
+  border-radius: 8px;
+  padding: 3px 5px;
+  background-color: #e2e1e1;
+  width:300px;
+}
+
+
+/* Dropdown Styles */
+.dropdowncontainer {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the left */
+
+}
+
+.dropdownbutton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #808080;
+}
+
+.dropdownbutton::after {
+  content: '';
+  display: inline-block;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 10px;
+  background-color: #FFFFFF;
+}
+
+.inputcontainer {
+  position: relative;
+  left: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.dropdowninput {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.dropdown {
+  border: 0;
+  border-top: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin-top: 5px; /* Add margin to the top of the dropdown */
+}
+
+.dropdownitem {
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.dropdownitem:hover {
+  background-color: #f0f0f0;
+}
+
+/* Input Styles */
+.input-text {
+  background-color: white;
+  color: #444444;
+  border: 1px solid #444444;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-text:focus {
+  outline: none;
+  border-color: #FFD700;
+}
+
+.icon{
+text-align: right;
+font-size: 15px;
+color:#008000;
+}
+
+
+.inputButtonContainer {
+  display: flex;
+  align-items: center; /* Align items vertically */
+
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .container {
+    order: 1;
+  }
+
+  .subcon {
+    order: 2;
+  }
+
+  .container,
+  .subcon {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .PricingSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ctatext {
+    display: none;
+  }
+}

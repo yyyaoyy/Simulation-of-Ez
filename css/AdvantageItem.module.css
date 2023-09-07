@@ -1,0 +1,68 @@
+.title {
+font-size: 40px;
+margin-bottom: 30;
+font:bold;
+text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link.active {
+  /* 根据你的需求设置激活状态的样式 */
+}
+
+
+.heading {
+  margin: 0;
+  font-size: 25px;
+  font:bold;
+}
+
+
+.heading:hover {
+  color: #ffd700; 
+}
+
+.subheading {
+  font-size: 25px;
+  font:bold;
+  color: #000000; 
+}
+
+.subheading:hover {
+  color: #ffd700; 
+}
+
+.content {
+  background:white;
+  color:#808080;
+  font-size: 20px;
+}
+
+.subcontent {
+  font-size: 25px;
+}
+
+.mediaBody {
+  text-align: left;
+  margin: 0;
+  font-size: 25px;
+}
+
+.icon{
+text-align: right;
+font-size: 20px;
+color:#808080;
+}
+
+.submedia {
+  padding: 20px;
+  text-align: left;
+  font-size: 25px;
+  background:#F5F5F5;
+  color: #808080;
+}
+

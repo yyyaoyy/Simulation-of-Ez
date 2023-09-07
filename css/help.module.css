@@ -1,0 +1,23 @@
+/* help.module.css */
+.downButton {
+  background-color: #ffcc00;
+  color: #000000;
+
+  bottom: 0;
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 25px;
+  cursor: pointer; 
+  display: flex; /* 使用 Flexbox 布局 */
+  align-items: center; /* 垂直居中对齐内容 */
+  justify-content: center; /* 水平居中对齐内容 */
+}
+
+
+.circleIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Adjust spacing as needed */
+}
+

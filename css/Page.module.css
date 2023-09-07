@@ -1,0 +1,12 @@
+/* Page.module.css */
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Align items to the right and left */
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding for space around the button */
+}
+
+.logo {
+  margin-right: auto; /* Pushes the logo (image) to the left */
+}
