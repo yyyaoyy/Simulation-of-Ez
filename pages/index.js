@@ -1,18 +1,9 @@
 import React from 'react';
-import YouTube from 'react-youtube';
-
-import { FaStar } from 'react-icons/fa';
-import Image from 'next/image';
-
-import Head from 'next/head';
 import styles from '/css/Page.module.css';
-
 import MobileNavToggle from '../component/MobileNavToggle';
-
 import SecondaryBar from '../component/SecondaryBar';
 import Main from '../component/Main';
 import PricingSection from '../component/PricingSection';
-
 import GuaranteeSection from '../component/GuaranteeSection';
 import HowEzLicenceWorks from '../component/HowEzLicenceWorks';
 import TestimonialsCarousel from '../component/TestimonialsCarousel';
@@ -24,8 +15,8 @@ import WhyChooseEzLicence from '../component/WhyChooseEzLicence';
 import AdvantagesSection from '../component/AdvantagesSection';
 import ScrollButton from '../component/ScrollButton';
 import Footer from '../component/Footer';
-
 import dynamic from 'next/dynamic' 
+
 
 const navItems = [
   { text: 'Driving Lessons', link: 'https://www.ezlicence.com.au/driving-lessons' },
@@ -51,12 +42,9 @@ const navItems = [
 
 
 const Home = () => {
-
-
-
 return (
 
-<div>
+<div className={styles['body']}>
 <SecondaryBar />
 
 <header className={styles['header']} >

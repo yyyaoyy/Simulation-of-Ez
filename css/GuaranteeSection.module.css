@@ -1,18 +1,23 @@
 /* components/GuaranteeSection.module.css */
 
 .guaranteeSection {
-  background-color: #0B243B; /* background */
-  padding: 25px;
+  background-color: #0B243B; /* 背景颜色 */
+  padding: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  width: 100%; /* 充满整个视窗宽度 */
+  margin: 0; /* 移除外边距 */
 }
+
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 600px; /* Optional: Limit the maximum width of the section */
-  margin: 0 auto; /* Optional: Center the section horizontally */
+  max-width: 100%; /* 使容器充满屏幕宽度 */
+  margin: 0; /* 移除原有的外边距 */
+  padding: 0 20px; /* 可以添加内边距以控制内容与屏幕边缘的距离 */
 }
 
 .smallMarginTop5 {
@@ -22,13 +27,13 @@
 .media {
   display: flex;
   align-items: center;
-  flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
+  flex-wrap: wrap; /* 允许项目在需要时换行到新行 */
   text-align: center;
 }
 
 .mediaLeft {
   margin-right: 20px;
-  flex: 0 0 auto; /* Prevent the icon from growing to take up extra space */
+  flex: 0 0 auto; /* 防止图标扩展以占用额外的空间 */
 }
 
 .size70 {
@@ -37,7 +42,7 @@
 }
 
 .white {
-  fill: #ffffff; /* White icon color */
+  fill: #ffffff; /* 白色图标颜色 */
 }
 
 .mediumMarginRight20 {
@@ -47,35 +52,19 @@
 .mediaBody {
   flex: 1;
   text-align: left;
-   /* Optional: Limit the maximum width of the text */
+  max-width: 100%; /* 使文本充满容器的宽度 */
 }
 
-
-
 .text {
-  color: #ffffff; /* White font color */
+  color: #ffffff; /* 白色字体颜色 */
   margin-top: 10px;
   font-size: 40px;
   margin-bottom: 5px;
 }
 
-
 .textSecondary {
-  color: #ffffff; /* Secondary text color */
+  color: #ffffff; /* 次要文本颜色 */
   font-size: 25px;
   font-weight: normal;
-  font-family: "Arial", sans-serif; 
+  font-family: "Arial", sans-serif;
 }
-
-
-
-
-/* Keep text in a single line 
-@media screen and (max-width: 768px) {
-  .mediaBody {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
-*/

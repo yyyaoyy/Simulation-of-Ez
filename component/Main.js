@@ -48,7 +48,7 @@ const handleButtonClick1 = (buttonId) => {
   const isButtonDisabled = !transmission || !suburb || suburb.trim() === '';
 
      return (
-      <div className="Main" style={{ backgroundImage: `url('/static/bg.png')` }}>
+      <div className={styles['Main']} >
 <br/>
     <h1 className={styles['title']}>Where do you need driving lessons?</h1>
 

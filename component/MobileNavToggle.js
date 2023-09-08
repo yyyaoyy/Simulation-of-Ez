@@ -1,8 +1,8 @@
 // MobileNavToggle.js
 import React, { useState } from 'react';
 import styles from '/css/MobileNavToggle.module.css';
-import Image from 'next/image';
-import { FaBars, FaTimes } from 'react-icons/fa'; // 导入 react-icons/fa 中的图标
+
+import { FaBars, FaTimes } from 'react-icons/fa'; //  react-icons/fa 
 import { FaAngleRight } from 'react-icons/fa';
 
 const MobileNavToggle = ({ navItems }) => {

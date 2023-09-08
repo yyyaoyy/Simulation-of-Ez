@@ -1,0 +1,14 @@
+/* global.css */
+
+/* 清除默认外边距和内边距 */
+body, h1, h2, h3, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置所有元素的盒模型为 border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

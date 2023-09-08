@@ -28,6 +28,14 @@ const PricingSection = () => {
     setShowDropdown(!showDropdown);
   };
 
+
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
     if (transmission && suburb.trim() !== '') {
@@ -48,7 +56,7 @@ const handleButtonClick1 = (buttonId) => {
 
   
   return (
-    <section className={styles.PricingSection}>
+    <section className={`${styles.PricingSection} PricingSection`}>
       <div className='container'>
 
     
@@ -113,7 +121,7 @@ const handleButtonClick1 = (buttonId) => {
                   Enter your suburb
                 </button>
                 {showDropdown && (
-                  <div className={`${styles.inputcontainer} inputcontainer`}>
+                   <div className={`inputcontainer ${dropdownVisible ? 'show' : ''}`}>
                     <input
                       className={`${styles.dropdowninput} dropdowninput`}
                       type="text"
